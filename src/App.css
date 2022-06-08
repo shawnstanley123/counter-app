@@ -1,0 +1,74 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.counter-app{
+  border: 0px solid;
+  border-radius: 10px;
+  width: 434px;
+  height: 248px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("https://static.wixstatic.com/media/b23e76_571dc030ddac46799b4f4202e7adc4c8~mv2.png/v1/fill/w_2500,h_1500,al_c/b23e76_571dc030ddac46799b4f4202e7adc4c8~mv2.png");
+  background-size: cover;
+  overflow: hidden;
+  box-shadow: 10px 8px 4px rgba(0,0,0,0.2);
+
+}
+button{
+appearance: none;
+border: none;
+outline: none;
+font-size: 40px;
+cursor: pointer;
+
+}
+.buttons {
+  padding-top: 50px;
+display: grid;
+grid-template-columns: 50px 50px;
+grid-template-rows: 50px;
+gap: 80px;
+}
+.buttons button{
+border-radius: 50%;
+}
+.increment {
+background-color: #05eb9a;
+border: 2px solid #013636;
+color:white;
+}
+.decrement{
+background-color:#eb052f;
+border: 2px solid #013636;
+color: white;
+}
+.display span{
+font-size: 50px;
+}
+.display{
+border: 1px solid;
+width: 82px;
+height: 72px;
+text-align:center;
+justify-content: center;
+border-radius: 10px;
+border: 3px solid #013636;
+background-color: aliceblue;
+}
+
+
+  
